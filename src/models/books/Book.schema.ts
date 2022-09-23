@@ -34,8 +34,8 @@ const bookSchema: mongoose.Schema = new mongoose.Schema({
 
 });
 
-bookSchema.virtual('fullName', function () {
-    return `${this.author.name} ${this.author.lastName}` 
-});
+//bookSchema.virtual('fullName', function () {
+    //return `${this.author.name} ${this.author.lastName}`; 
+//});
 
 export {bookSchema}
