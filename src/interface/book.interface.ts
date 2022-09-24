@@ -7,5 +7,5 @@ export interface IBook extends mongoose.Document {
     description: string;
     author: [string, string];
     genre: string;
-    awaible: boolean;
+    avaible: boolean;
 };
